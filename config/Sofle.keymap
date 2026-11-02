@@ -27,7 +27,7 @@
             then-layer = <ADJUST>;
         };
         adjust_layer_legacy {
-            if-layers = <SYMBOLS_BASE RUCHEY>;
+            if-layers = <SYMBOLS_RUCHEY EDITING>;
             then-layer = <ADJUST>;
         };
     };
@@ -42,7 +42,7 @@
 &kp TAB   &kp SQT   &kp COMMA  &kp DOT   &kp P     &kp Y                  &kp F      &kp G     &kp C     &kp R     &kp L     &kp FSLH
 &kp CLCK  &kp A     &kp O      &kp E     &kp U     &kp I                  &kp D      &kp H     &kp T     &kp N     &kp S     &kp MINUS
 &kp LGUI  &kp SEMI  &kp Q      &kp J     &kp K     &kp X   &none &none    &kp B      &kp M     &kp W     &kp V     &kp Z     &kp EQUAL
-        &kp LSHFT   &kp LCTRL   &kp LALT   &to 1   &kp SPACE &kp RET    &to 2   &kp BSPC   &kp DEL   &kp INS
+        &kp LSHFT   &kp LCTRL   &kp LALT   &to 1   &kp SPACE &kp RET    &to 4   &kp BSPC   &kp DEL   &kp INS
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT K_VOLUME_DOWN &inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
@@ -91,9 +91,9 @@
 &kp TAB   &kp P    &kp A     &kp O     &kp T   &kp MINUS             &none  &kp N7         &kp N8        &kp N9          &kp KP_PLUS   &none
 &kp CLCK  &kp S    &kp A     &kp P     &kp B   &kp A                 &none  &kp N4         &kp N5        &kp N6          &kp KP_COMMA  &none
 &kp LGUI  &none    &kp I     &kp O     &none   &none   &none &none   &kp N0 &kp N1         &kp N2        &kp N3          &kp KP_EQUAL  &kp KP_DOT
-         &kp LSHFT   &kp LCTRL   &kp LALT   &to BASE   &kp SPACE &kp RET    &none   &kp BSPC   &kp DEL   &kp INS
+         &kp LSHFT   &kp LCTRL   &kp LALT   &to 0   &kp SPACE &kp RET    &none   &kp BSPC   &kp DEL   &kp INS
             >;
-           // sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN &inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT K_VOLUME_DOWN &inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         adjust_layer {

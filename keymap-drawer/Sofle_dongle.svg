@@ -461,8 +461,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(552, 274) rotate(-23.0)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Ruchey">
-<text x="0" y="0" class="key tap layer-activator">Ruchey</text>
+<a href="#Editing">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 86%">Editing</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(617, 260)" class="key keypos-57">

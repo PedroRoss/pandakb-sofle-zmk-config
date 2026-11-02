@@ -57,7 +57,7 @@ layers:
   - {t: Symbols, h: toggle}
   - ␣
   - ⏎
-  - {t: Ruchey, h: toggle}
+  - {t: Editing, h: toggle}
   - $$mdi:backspace-outline$$
   - ⌦
   - Insert
