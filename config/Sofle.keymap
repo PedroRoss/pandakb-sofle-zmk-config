@@ -23,7 +23,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
         adjust_layer {
-            if-layers = <SYMBOLS_BASE EDITING>;
+            if-layers = <SYMBOLS_BASE RUCHEY>;
             then-layer = <ADJUST>;
         };
     };
@@ -41,7 +41,7 @@
         &kp LSHFT   &kp LCTRL   &kp LALT   &to 1   &kp SPACE &kp RET    &to 2   &kp BSPC   &kp DEL   &kp INS
             >;
 
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN &inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT K_VOLUME_DOWN &inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         symbols_base_layer {
@@ -53,7 +53,7 @@
 &kp LGUI  &none     &kp LC(X)  &kp LC(C)  &kp LC(V)  &none    &none &none   &kp PSCRN   &none      &none     &none     &none      &none
                        &kp LSHFT   &kp LCTRL   &kp LALT   &none   &kp SPACE &kp RET    &to 0   &kp BSPC   &kp DEL   &kp INS
             >;
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN &inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT K_VOLUME_DOWN &inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         ruchey_layer {
@@ -65,7 +65,7 @@
 &kp LGUI  &none    &kp I     &kp O     &none   &none   &none &none   &kp N0 &kp N1         &kp N2        &kp N3          &kp KP_EQUAL  &kp KP_DOT
          &kp LSHFT   &kp LCTRL   &kp LALT   &to 0   &kp SPACE &kp RET    &none   &kp BSPC   &kp DEL   &kp INS
             >;
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN &inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT K_VOLUME_DOWN &inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         symbols_ruchey_layer {
